@@ -6,7 +6,7 @@ const Asecreto = document.getElementById("resultado");
 
 function agregarAmigo() {
     
-    if (!NombresAmigos.value){
+    if (!NombresAmigos.trim){
         alert("Escribe un nombre valido")
     }
 
